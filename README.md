@@ -58,4 +58,8 @@ learn how to test a page: go into home74/test
 run cmd : python manage.py test home74
 
 
+Lesson 4 :
+ create 2 file html base and home
+in home, use base as a template 
+code : {% extends "pages/base.html" %}
 
