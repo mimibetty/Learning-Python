@@ -64,5 +64,19 @@ Lesson 4 :
 in home, use base as a template 
 code : {% extends "pages/base.html" %}
 
+Lesson 5: use bootstrap 
+
+notice: 
+The error you're encountering indicates that the staticfiles tag library is not found or not registered. This might be due to a change in how Django handles static files in newer versions. In Django 3.x and earlier, you used {% load staticfiles %}, but since Django 3.1, this has been simplified to {% load static %}.
+
+To fix the error, replace the line:
+{% load staticfiles %}
+with:
+{% load static %}
 
 
+result : 
+![image](https://github.com/mimibetty/Learning-Python/assets/74227789/5fc6aefb-984d-4faf-b999-0f9335aee906)
+
+
+Lesson 6: finish first blog 
