@@ -2,6 +2,7 @@
 Learning framework in python  and some application 
 
 https://topdev.vn/blog/django-de-hon-flask/
+source : https://www.youtube.com/watch?v=_D5WGp2chtk&list=PL33lvabfss1z8GYxjyMulCnhcYGk5ah8P&index=5&ab_channel=Kteam
 day 1: 15/4/2024
 
 for flask :
@@ -62,4 +63,6 @@ Lesson 4 :
  create 2 file html base and home
 in home, use base as a template 
 code : {% extends "pages/base.html" %}
+
+
 
