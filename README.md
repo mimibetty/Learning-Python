@@ -80,3 +80,4 @@ result :
 
 
 Lesson 6: finish first blog 
+![image](https://github.com/mimibetty/Learning-Python/assets/74227789/ccbc9e67-305e-4313-b5a5-8bd8132941dd)
