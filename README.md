@@ -1,4 +1,4 @@
-![image](https://github.com/mimibetty/Learning-Python/assets/74227789/6a3199c0-0f2a-44a5-aa9f-c475eb981b98)# Learning-Python
+# Learning-Python
 Learning framework in python  and some application 
 
 https://topdev.vn/blog/django-de-hon-flask/
