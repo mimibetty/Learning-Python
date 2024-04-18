@@ -81,3 +81,65 @@ result :
 
 Lesson 6: finish first blog 
 ![image](https://github.com/mimibetty/Learning-Python/assets/74227789/ccbc9e67-305e-4313-b5a5-8bd8132941dd)
+
+
+Lesson 7:
+create app blog 
+setting.py  =>     install_app => insert blog
+blog/model:
+class Post(models.Model):
+    title = models.CharField( max_length=100)
+    body = models.TextField()
+    date = models.DateTimeField(auto_now_add=True)
+
+để blog biết rằng đã tạo ra model post 
+python manage.py makemigrations blog
+
+để cập nhật csdl sqlite 
+python manage.py migrate
+
+
+
+Lesson 8 Interact with database
+Lesson 9: Admin Page
+
+create admin user : python manage.py createsuperuser
+then modify in blog/admin.py
+
+
+
+from django.contrib import admin
+from .models import Post
+# Register your models here.
+
+class PostAdmin(admin.ModelAdmin):
+    list_display= ['title', 'date']
+    list_filter = ['date']
+    search_fields = ['title']   
+    list_per_page = 2
+admin.site.register(Post, PostAdmin)
+
+
+
+L10: List all blog
+in blog\templates\blog\blog.html
+
+{% extends "pages/base.html" %}
+
+{% block title %}Blog{% endblock %}
+
+{% block content %}
+{% for post in Postss %}
+    <h4> {{ post.date|date:"d-m-Y" }} <a href="/blog/{{ post.id }}"> {{ post.title }} </a> </h4>
+{% endfor %}
+{% endblock %}
+
+
+**Please notice the path when extend, there are some strange rules, it is logical path in django, not full filesystem path** 
+
+if you have conflict in these path, please check:
+ in setttings.py
+-Check DIRS
+-Check APP_DIRS
+-Path Resolution in APP_DIRS
+-Ordering of App 
