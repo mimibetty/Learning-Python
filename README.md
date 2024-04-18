@@ -83,6 +83,10 @@ Lesson 6: finish first blog
 ![image](https://github.com/mimibetty/Learning-Python/assets/74227789/ccbc9e67-305e-4313-b5a5-8bd8132941dd)
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d5d98dba1645f0434a7b7a3f95a96db2da4b5583
 Lesson 7:
 create app blog 
 setting.py  =>     install_app => insert blog
@@ -119,6 +123,10 @@ class PostAdmin(admin.ModelAdmin):
     list_per_page = 2
 admin.site.register(Post, PostAdmin)
 
+
+before: ![image](https://github.com/mimibetty/Learning-Python/assets/74227789/b085b3a0-5759-41e6-a786-ea65f37d2dc1)
+
+result: ![image](https://github.com/mimibetty/Learning-Python/assets/74227789/f9628b86-9643-472b-82e0-ea9e09be84ee)
 
 
 L10: List all blog
