@@ -83,10 +83,7 @@ Lesson 6: finish first blog
 ![image](https://github.com/mimibetty/Learning-Python/assets/74227789/ccbc9e67-305e-4313-b5a5-8bd8132941dd)
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> d5d98dba1645f0434a7b7a3f95a96db2da4b5583
 Lesson 7:
 create app blog 
 setting.py  =>     install_app => insert blog
